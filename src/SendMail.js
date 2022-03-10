@@ -8,19 +8,19 @@ function SendMail() {
     const { register, handleSubmit } = useForm();
     
 
-    const onSubmit = (data) => {
-        console.log(data);
-    }
+    const onSubmit = (formData) => {
+        console.log(formData);
+    };
   
     return (
     <div className="sendMail">
        <div className="sendMail__header">
           <h3>New Message</h3>
           <CloseIcon className="sendMail__close" />
-       </div>
+       </div>   
 
        <form onSubmit={handleSubmit(onSubmit)}>
-           <input name='to' placeholder="To" type="text" ref={register('to', {required: true })}/>
+           <input name="to" placeholder="To" type="text" ref={register('to', {required: true })}/>
 
            <input name='subject' placeholder="Subject" type="text" ref={register('subject', {required: true })}/>
 
