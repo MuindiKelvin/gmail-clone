@@ -50,16 +50,34 @@ function EmailList() {
         <Section Icon={InboxIcon} title="Primary" color="red" selected />
         <Section Icon={PeopleIcon} title="Social" color="#1A73E8" />
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
+
     </div>
 
     <div className="emailList__list">
+         
          <EmailRow 
          title="Twitch"
          subject="Hey fellow treamer!!!"
          description="This is a test"
          time="10pm"/>
+         
          <EmailRow 
-         title="Twitch"
+         title="Kevin Muindi"
+         subject="Hey fellow treamer!!!"
+         description="This is a dope sh!!!!!!!!!!!!!!!!!t"
+         time="10pm"/>
+         <EmailRow 
+         title="Samuel Nzyuko"
+         subject="Hey fellow treamer!!!"
+         description="This is a dope sh!!!!!!!!!!!!!!!!!t"
+         time="10pm"/>
+         <EmailRow 
+         title="Kevin Maina"
+         subject="Hey fellow treamer!!!"
+         description="This is a dope sh!!!!!!!!!!!!!!!!!t"
+         time="10pm"/>
+         <EmailRow 
+         title="Tester 1"
          subject="Hey fellow treamer!!!"
          description="This is a dope sh!!!!!!!!!!!!!!!!!t"
          time="10pm"/>

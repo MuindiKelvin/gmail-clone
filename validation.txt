@@ -1,0 +1,7 @@
+<input name="to" placeholder="To" type="text" ref={register({required: true })}  />
+           
+
+           <input name="subject" placeholder="Subject" type="text" ref={register('subject', {required: true })}/> 
+          
+
+           <input name="message" placeholder="Message" type="text" className="sendMail__message" ref={register('message', {required: true })}/>

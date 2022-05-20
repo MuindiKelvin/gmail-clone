@@ -18,7 +18,7 @@
 
 .emailRow__message {
     display: flex;
-    flex: 0.8;
+    flex: 0.4;
     align-items: center;
     font-size: 13px;
 }
